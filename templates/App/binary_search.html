@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% load staticfiles %}
+
+    <h3>二分查找</h3>
+    <p>用途: 在一个列表中快速查找目标</p>
+    <p>需要: 有序的元素列表</p>
+    <p>代码:</p>
+    <div>
+    <script src="{% static 'code/BinarySearch.py' %}"></script>
+    </div>
+
+{% endblock %}
